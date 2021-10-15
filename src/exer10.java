@@ -20,6 +20,8 @@ public class exer10 {
 			i++;
 		}
 		System.out.println(baseF + " ^ " + expF + " = " +calF);
+		
+		input.close();
 	}
 
 }

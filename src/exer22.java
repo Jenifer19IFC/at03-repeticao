@@ -25,7 +25,6 @@ public class exer22 {
 				c3++;
 			else
 				System.out.println("Candidato inválido! Comece novamente.");
-				System.exit(0);
 		}
 			System.out.println("Quantidade de votos de cada candidato: ");
 			System.out.println("Candidato A = " + c1);

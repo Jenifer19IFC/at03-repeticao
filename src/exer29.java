@@ -11,14 +11,16 @@ public class exer29 {
 		int inicio = input.nextInt();
 		System.out.println("Digite o valor final dela:");
 		int fim = input.nextInt();
-
-		int lim = 10;
 		
-		for(int i = 1; i <=lim; i++) {
-			int cal = t * i;
-			System.out.println(t + " x " + i + " = " + cal);
+		for(int i = inicio; i <=fim; i++) {
+			if(inicio < fim) {	
+				int cal = t * i;
+				System.out.println(t + " x " + i + " = " + cal);
+			}else {
+				System.out.println("O valor inicial deve ser menor que o final!");
+			}
 		}
-
+		
+		input.close();
 	}
-
 }
