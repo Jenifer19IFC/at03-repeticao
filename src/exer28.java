@@ -17,7 +17,7 @@ public class exer28 {
 			System.out.println("Digite a temperatura:");
 			tempF = input.nextFloat();
 
-			if (i == 1) {
+			if (i == 0) {
 				maiorF = tempF;
 				menorF = tempF;
 				somaF = somaF + tempF;
@@ -25,7 +25,7 @@ public class exer28 {
 				if (tempF > maiorF) {
 					maiorF = tempF;
 					somaF = somaF + tempF;
-				} else {
+				} else if(tempF < menorF){
 					menorF = tempF;
 					somaF = somaF + tempF;
 				}
@@ -36,7 +36,6 @@ public class exer28 {
 		System.out.println("Maior temperatutura: " + maiorF);
 		System.out.println("Menor temperatutura: " + menorF);
 		System.out.println("Média: " + mediaF);
-		System.out.println("Soma temperatutura: " + somaF);
 
 		input.close();
 	}
