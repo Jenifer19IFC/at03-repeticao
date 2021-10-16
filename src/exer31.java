@@ -16,7 +16,7 @@ public class exer31 {
 			System.out.println("Digite a altura do aluno:");
 			int altura = input.nextInt();
 			
-			if( i == 1) {
+			if( i == 0) {
 				maisalto = altura;
 				nalto = n;
 				maisbaixo = altura;
